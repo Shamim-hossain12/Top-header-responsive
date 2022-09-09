@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    background-color: dodgerblue;
+    margin-top: 50px;
+}
+
+.menu-ber {
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.logo {
+    width: 20%;
+    height: 120px;
+}
+
+.box-one {
+    height: 120px;
+    width: 20%;
+    background-color: #ffa500;
+    margin-left: 100px;
+}
+
+.box-two {
+    height: 45px;
+    width: 12%;
+    background-color: red;
+    position: absolute;
+    left: 105px;
+    top: 90px;
+}
+
+.toggel div {
+    width: 30px;
+    height: 4px;
+    margin-bottom: 15px;
+    background-color: black;
+    display: none;
+}
+
+.menu-item {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-left: 320px;
+}
+
+.menu-item p a {
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+.menu-item p a:hover {
+    background-color: #fff;
+    color: red;
+    border-radius: 20px;
+    transition: .4s;
+    padding: 10px 20px;
+}

@@ -1,0 +1,139 @@
+@media (min-width:1400px) {}
+
+@media (min-width:1200px) and (max-width:1399px) {
+    .box-one {
+        width: 22%;
+    }
+    .box-two {
+        height: 40px;
+        left: 110px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .box-one {
+        width: 25%;
+    }
+    .box-two {
+        height: 40px;
+        left: 110px;
+    }
+    .menu-item {
+        margin-left: 200px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .box-one {
+        width: 25%;
+        margin-left: 60px;
+    }
+    .box-two {
+        height: 35px;
+        left: 57px;
+        width: 15%;
+    }
+    .menu-item {
+        width: 40%;
+        margin-left: 50px;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    .box-one {
+        width: 25%;
+        margin-left: 60px;
+    }
+    .box-two {
+        height: 35px;
+        left: 57px;
+        width: 15%;
+    }
+    .togg {
+        position: absolute;
+        right: 30px;
+        top: 90px;
+    }
+    .toggel div {
+        display: block;
+    }
+    .menu-item {
+        flex-direction: column;
+        background-color: dodgerblue;
+        width: 20%;
+        position: absolute;
+        right: 20px;
+        top: 140px;
+        text-align: center;
+        display: none;
+    }
+    .togg:hover~.menu-item {
+        display: block;
+    }
+}
+
+@media (min-width:321px) and (max-width:575px) {
+    .box-one {
+        width: 45%;
+        margin-left: 60px;
+    }
+    .box-two {
+        height: 30px;
+        left: 26px;
+        width: 35%;
+    }
+    .togg {
+        position: absolute;
+        right: 30px;
+        top: 90px;
+    }
+    .toggel div {
+        display: block;
+    }
+    .menu-item {
+        flex-direction: column;
+        background-color: dodgerblue;
+        width: 20%;
+        position: absolute;
+        right: 20px;
+        top: 140px;
+        text-align: center;
+        display: none;
+    }
+    .togg:hover~.menu-item {
+        display: block;
+    }
+}
+
+@media (max-width:320px) {
+    .box-one {
+        width: 50%;
+        margin-left: 60px;
+    }
+    .box-two {
+        height: 30px;
+        left: 30px;
+        width: 40%;
+    }
+    .togg {
+        position: absolute;
+        right: 30px;
+        top: 90px;
+    }
+    .toggel div {
+        display: block;
+    }
+    .menu-item {
+        flex-direction: column;
+        background-color: dodgerblue;
+        width: 20%;
+        position: absolute;
+        right: 20px;
+        top: 140px;
+        text-align: center;
+        display: none;
+    }
+    .togg:hover~.menu-item {
+        display: block;
+    }
+}
